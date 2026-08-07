@@ -48,7 +48,7 @@ body{padding-top:14px}
 #rfr svg{width:12px;height:12px;display:block}
 #rfr.busy svg{animation:ptrspin .8s linear infinite}
 html,body{overscroll-behavior-y:contain}
-</style></head><body><div class="wrap"><div class="appbar"><a class="off">‹ 이전</a><span class="ab-c">지난 브리핑</span><a class="off">다음 ›</a><a href="index.html">최신</a></div><div class="stamp"><span>업데이트 08월 06일 21:33</span><button type="button" id="rfr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>새로고침</button></div><div class="eyebrow">Daily Health Brief</div><h1>지난 브리핑</h1><ul class="arc"><li><a href="b/2026-08-06.html"><b>8월 6일</b><span>목요일 · 최신</span><em>체중 102.4kg · 수면 5시간 22분 · 걸음수 14,318</em></a></li></ul><div id="ptr"><div class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="#2E7D6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></div></div><div id="toast"></div><script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(function(r){r.update();}).catch(function(){});});}
+</style></head><body><div class="wrap"><div class="appbar"><a class="off">‹ 이전</a><span class="ab-c">지난 브리핑</span><a class="off">다음 ›</a><a href="index.html">최신</a></div><div class="stamp"><span>업데이트 08월 07일 12:33</span><button type="button" id="rfr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3v6h-6"/></svg>새로고침</button></div><div class="eyebrow">Daily Health Brief</div><h1>지난 브리핑</h1><ul class="arc"><li><a href="b/2026-08-07.html"><b>8월 7일</b><span>금요일 · 최신</span><em>체중 미측정 · 수면 5시간 47분 · 걸음수 12,548</em></a></li><li><a href="b/2026-08-06.html"><b>8월 6일</b><span>목요일</span><em>체중 102.4kg · 수면 5시간 22분 · 걸음수 14,318</em></a></li></ul><div id="ptr"><div class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="#2E7D6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></div></div><div id="toast"></div><script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(function(r){r.update();}).catch(function(){});});}
 (function(){
  function top(){var e=document.scrollingElement||document.documentElement;
   return Math.max(0,e.scrollTop||window.pageYOffset||0);}
@@ -118,7 +118,7 @@ html,body{overscroll-behavior-y:contain}
   if(sessionStorage.getItem('hb_refreshed')){
    sessionStorage.removeItem('hb_refreshed');
    var t=document.getElementById('toast');
-   if(t){t.textContent='최신 내용입니다 · 업데이트 08월 06일 21:33';
+   if(t){t.textContent='최신 내용입니다 · 업데이트 08월 07일 12:33';
     requestAnimationFrame(function(){t.classList.add('on');});
     setTimeout(function(){t.classList.remove('on');},2400);}
   }
