@@ -1,4 +1,4 @@
-const CACHE='health-brief-37885b1f';
+const CACHE='health-brief-7fd3a1d4';
 const SHELL=['./','./index.html','./archive.html','./manifest.webmanifest',
              './icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',e=>{
